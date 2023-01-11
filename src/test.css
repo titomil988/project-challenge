@@ -1,0 +1,27 @@
+.templatecss{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.contenedor{
+    padding: 2% 5%;
+    
+}
+.select-country{
+    width: 300px;
+}
+.table-padding{
+    padding: 2% 5%;
+}
+.btn-volver {
+    color: white;
+    text-decoration: none;
+}
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
