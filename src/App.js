@@ -8,18 +8,21 @@ import {
   Routes,
   Link
 } from 'react-router-dom'
+
+import { HashRouter } from "react-router-dom";
+
 function App() {
   return (
     <Router>
       <div className='container'>
-        <Routes>
+        <HashRouter>
           <Route path='/' element={<Templatetest></Templatetest>} />
 
 
           <Route path='/Listado' element={<MostrarDatos></MostrarDatos>} />
 
 
-        </Routes>
+        </HashRouter>
 
       </div>
     </Router>
