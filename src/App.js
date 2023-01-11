@@ -3,7 +3,6 @@ import './App.css';
 import Templatetest from './template';
 import MostrarDatos from './listado';
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
   Link
@@ -13,19 +12,19 @@ import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className='container'>
-        <HashRouter>
+        <Routes>
           <Route path='/' element={<Templatetest></Templatetest>} />
 
 
           <Route path='/Listado' element={<MostrarDatos></MostrarDatos>} />
 
 
-        </HashRouter>
+        </Routes>
 
       </div>
-    </Router>
+    </HashRouter>
 
   );
 }
